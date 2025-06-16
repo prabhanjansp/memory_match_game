@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import Game from './pages/Game'
 
-export const App = () => {
+ const App = () => {
   return (
     <Router>
       <Routes>
@@ -14,3 +14,4 @@ export const App = () => {
     </Router>
   )
 }
+export default App;
